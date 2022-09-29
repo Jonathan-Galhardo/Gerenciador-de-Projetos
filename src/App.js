@@ -1,10 +1,14 @@
-function App() {
+import React from "react";
+import Home from "./Components/home/Home"
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>Curso React</h1>
-      <p>Aprendendo React</p>
-    </div>
-  );
+    <>
+      < Home />
+
+
+    </>
+  )
 }
 
 export default App;
